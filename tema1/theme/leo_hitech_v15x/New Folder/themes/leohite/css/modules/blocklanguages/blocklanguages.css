@@ -1,0 +1,25 @@
+/* block top languages */
+#header_right #languages_block_top {
+	position: absolute;
+	left:50%;
+	margin-left: 200px;
+	top: 0;
+	width: 105px;
+	border-left: 1px solid #2c2f36;
+	padding: 11px 5px 7px 10px;
+	height: 15px;
+	overflow: hidden;
+}
+#languages_block_top lable {float:left;margin-right: 5px;}
+#header_right #languages_block_top p { clear: left }
+#languages_block_top {
+	
+}
+#languages_block_top ul#first-languages li {
+	float: left;
+	margin-right: 3px
+}
+#languages_block_top ul#first-languages li.selected_language {
+	float: left;
+	margin-right: 0.3em
+}

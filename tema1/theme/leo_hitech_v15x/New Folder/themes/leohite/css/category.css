@@ -1,0 +1,5 @@
+/* category.tpl */
+body#category #subcategories li {width:33.3%; }
+div.cat_desc p,.cat_desc {padding:0 !important}
+body#category div#subcategories .inline_list a img { display: inline }
+.cat_name,.cat_desc{float:left;text-align:left}

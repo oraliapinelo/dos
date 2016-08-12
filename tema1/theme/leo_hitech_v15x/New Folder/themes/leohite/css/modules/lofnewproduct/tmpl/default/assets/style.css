@@ -1,0 +1,139 @@
+.lof-newproduct{
+	background:#1F2531;
+	margin-top:20px;
+}
+.newproduct-widget {
+    position: relative;
+}
+.list-newproduct{
+	padding: 15px;
+}
+.center_block,.right_block{margin:0 15px;}
+.responsive-img {
+    height: auto;
+    max-width: 100%;
+	float: left;
+}
+.lof-product{
+	transition:all 0.4s ease-in-out 0s;
+	border: 2px solid #2B3F59;
+    float: left;
+    margin: 0 auto;
+    padding: 1px;
+    position: relative;
+}
+.list-newproduct .right_block{
+	padding:10px 0;
+}
+.lof-product:hover{
+	border:2px solid #F84237;
+	background:#F84237;
+}
+.price-discount{	
+	font-size:15px;
+}
+.content_price{float:left;display:inline-block;}
+.lof-add-cart{float:right}
+.lof-pager {
+    position: absolute;
+    right: 15px;
+    top: 10px;
+}
+.lof-pager a {
+	background: url(images/arrow-button.png) no-repeat scroll 0 2px transparent;
+    cursor: pointer;
+    float: left;
+    height: 17px;
+    list-style: none outside none;
+    margin-top: 2px;
+    text-indent: -9999em;
+    width: 17px;
+}
+.lof-pager a.selected {
+    background-position: 1px -15px;
+    height: 20px;
+    margin-top: 0;
+    width: 20px;
+}
+.lof-pager a span {
+    display: none;
+}
+.list-newproduct > ul {
+    display: block;
+    height: 100%;
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+.list-newproduct ul li {
+    display: block;
+    float: left;
+    height: 100%;
+    padding: 0;
+    width: 189px;
+}
+.list-newproduct ul li article {
+    height: 100%;
+    padding-top: 10px;
+}
+.list-newproduct ul li article img {
+    height: auto;
+    width: 100%;
+}
+.list-newproduct ul li article p {
+    margin-top: 5px;
+}
+.list-newproduct.responsive {
+    width: auto;
+}
+.list-newproduct .newproduct-nav {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 71px;
+}
+.list-newproduct .newproduct-nav a {
+    outline: medium none;
+    text-decoration: none;
+}
+.list-newproduct .next, .list-newproduct .prev {
+    background: url("images/carousel-nav.png") no-repeat scroll 0 0 transparent;
+    height: 17px;
+    position: absolute;
+    top: 0;
+    width: 17px;
+}
+.list-newproduct .next {
+    background-position: -33px -33px;
+    right: 0;
+}
+.list-newproduct .next:hover {
+    background-position: -33px 0;
+}
+.list-newproduct .prev {
+    background-position: 0 -33px;
+    right: 20px;
+}
+.list-newproduct .prev:hover {
+    background-position: 0 0;
+}
+.newproduct-item .video-thumb {
+    position: relative;
+}
+.newproduct-item .play-icon {
+    background: url("images/play.png") no-repeat scroll center center transparent;
+    display: block;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 168px;
+}
+.newproduct-item .black-overlay {
+    background: none repeat scroll 0 0 #000000;
+    cursor: pointer;
+    display: block;
+    height: 100%;
+    opacity: 0.3;
+    width: 100%;
+}

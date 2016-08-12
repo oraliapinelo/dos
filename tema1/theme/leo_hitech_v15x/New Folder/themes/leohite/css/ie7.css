@@ -1,0 +1,31 @@
+/* fix ie7 */
+#toolspanel #bottombox input {*line-height: 22px;}
+.lofcamera_container {
+	margin-top: 0;
+	position: relative;
+	height: 380px;
+}
+.camera_thumbs_cont {
+	display: none;
+}
+.camera_wrap .camera_pag .camera_pag_ul {
+	padding-left: 450px;
+	display: block;
+}
+.sf-menu a {
+	padding-top: 6px;
+	padding-bottom: 6px;
+}
+.camera_wrap .camera_pag .camera_pag_ul li {
+	float:left;
+}
+.#lof-prestalove-easy-menu {
+	margin-bottom: 40px;
+}
+#wrapper {
+	width: 100%;
+	margin: 0 auto;
+}
+#newsletter_block_left input[type="submit"] {
+	line-height: 25px;
+}

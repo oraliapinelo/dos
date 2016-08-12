@@ -1,0 +1,82 @@
+/* Block categories */
+#categories_block_left .tree li {
+    border: medium none;
+    color: #4B5158;
+    font-size: 13px;
+    font-weight: normal;
+    margin-left: 0;
+	padding: 0;
+	line-height: 20px;
+}
+
+#categories_block_left .tree li.last{background: none;}
+#categories_block_left .tree li a{
+	background: url("images/shadow-li.png") repeat-x scroll -2px bottom transparent;
+	float:left;
+	width: 100%;
+}
+#categories_block_left .tree li a span{
+	background: url("images/arrow-li.png") 8px 8px no-repeat;
+	padding: 7px 8px 8px 30px;
+	display:block;
+}
+
+#categories_block_left .tree li a.selected,
+#categories_block_left .tree li a:hover{
+	background: url("images/shadow-li-hover.png") repeat-x scroll -2px bottom transparent;
+}
+#categories_block_left .tree li a:hover {
+	color: #fff;
+}
+
+#categories_block_left .tree li a.selected,
+#categories_block_left .tree li a:hover{
+	background: url("images/shadow-li-hover.png") repeat-x scroll -2px bottom transparent;
+}
+categories_block_left .tree ul { padding: 2px 0 0 }
+#categories_block_left .tree li li {
+	background: none;
+	font-size: 11px;
+	font-weight: normal
+}
+#categories_block_left .tree li li.last { padding-bottom: 0 }
+#categories_block_left .tree li li li {
+	padding-left: 15px;
+	font-size: 9px
+}
+#categories_block_left .tree a {
+	padding-left: 0;
+	color: #fff;
+	text-shadow: 0 0 1px #000;
+}
+
+#categories_block_left ul.tree a.selected {
+	
+	font-weight: normal;
+}
+#categories_block_left span.grower {
+	display: block;
+	float: right;
+	background-position: 0 3px;
+	background-repeat: no-repeat;
+	width: 9px;
+	height: 15px;
+	margin: 10px 5px 0 0;
+	padding: 0;
+	position: absolute;
+	right: 0
+}
+#categories_block_left span.OPEN { background-image: url('../../../img/icon/less.gif') }
+#categories_block_left span.CLOSE { background-image: url('../../../img/icon/more.gif') }
+
+div.blockcategories_footer h4{ background:url('../../../img/block_footer_page.gif') repeat-x scroll left top;text-align:center;}
+div.blockcategories_footer { background:url('../../../img/block_footer_page_footer.png') repeat-x scroll left bottom #bdc2c9;padding-bottom:5px}
+div.blockcategories_footer h4 a{color:#ffffff;font-weight:normal;text-decoration:none}
+div.blockcategories_footer .category_footer{ background-image:url('../../../img/block_bg.jpg');}
+div.category_footer{ background:none;text-align:center;border:none; }
+
+#leo-footer div.category_footer h4 a{color: #666666;}
+#leo-footer div.category_footer .list{float:left;}
+#leo-footer div.category_footer .list  ul.tree li{background:none;border-left:none;}
+
+#leo-footer .footer_logo{float: left;width: 188px;}

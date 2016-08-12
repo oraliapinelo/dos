@@ -1,0 +1,27 @@
+.leocamera_container {
+	position:relative;
+	overflow:hidden;
+	background:#22262F;
+    border-bottom: 1px solid #273C55;
+    border-top: 1px solid #273C55;
+    padding: 4px 5px 0;
+	width:950px;
+}
+
+.camera_pag_ul {
+    text-align: center !important;
+}
+.leo_camera_title a {
+    color: #fff;
+    font-weight: bold;
+	font-size:40px;
+	text-transform:uppercase;
+	text-shadow: -1px 2px 1px #000000;
+}
+.leo_camara_desc{	
+	color: #eee;
+    float: right;
+    font-size: 13px;
+    text-align: right;
+    width: 50%;
+}

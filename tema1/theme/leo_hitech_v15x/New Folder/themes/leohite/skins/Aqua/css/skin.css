@@ -1,0 +1,265 @@
+a {
+	color: #85909e;
+}
+a:hover {
+	color: #fff;
+}
+body {
+	color: #85909E;
+}
+#header {
+    background: url("../img/bg-inner.png") repeat-x scroll left top transparent;
+}
+#header_right #header_user {background:#0e161f;}
+#header_logo {
+	background: url(../img/logo.png) left top no-repeat;
+}
+#header_user #shopping_cart a {
+    background-image: url("../img/cart.png")!important;
+}
+#header_logo {
+    background: url("../img/logo.png") no-repeat scroll left top transparent;
+}
+#header .leo-inner {
+    background: url("../img/bg-header.png") repeat-x scroll left 34px transparent;
+}
+#headerlogo .lof_inner {
+    background: url("../img/shadow-logo.png") no-repeat scroll left 34px transparent;
+}
+.sf-menu a{
+	color:#c3cad4;
+	text-shadow: 0 1px 0 #000;
+}
+.sf-menu a:focus, .sf-menu a:hover, .sf-menu a:active, .sf-menu a:hover, .sf-menu a.active, .sf-menu > li.sfHover > a, .sf-menu > li:hover > a {
+    background: url("../img/menu-hover-right.png") no-repeat scroll right center transparent;
+}
+.sf-menu li.sfHover, .sf-menu li:hover, .sf-menu li.li-current{
+	background: url("../img/menu-hover-left.png") no-repeat scroll left center transparent;
+}
+#leo-rightcol #cart_block,
+#leo-centercol,
+#category #leo-columns .content-cat,
+.lof-newproduct,div.block {
+	background: #1b2838;
+}
+#leo-rightcol #categories_block_left,
+#leo-rightcol #cart_block,
+#leo-rightcol #search_block_right {
+	background: #1b2838;
+	border-radius: 0 0 0 0;
+	box-shadow: none;
+}
+
+#leo-centercol #SubmitCreate,#leo-centercol #SubmitLogin,
+input#carriercompare_submit,
+input#submitMessage,
+#update_carriers_list,
+#carriercompare_submit,
+.button_small.lof-add-cart,
+#toolspanel #bottombox a,
+#toolspanel input,
+a.button_small,
+a#button_order_cart,
+#order p.cart_navigation .exclusive,
+a.button,
+.button_large,
+input.button,
+input.button_compare {
+ 	background: none repeat scroll 0 0 #0e1822;
+    border: 0 none;
+    border-radius: 8px 8px 8px 8px;
+    box-shadow: 1px 1px 0 0 #426185;
+    color: #85909E;
+}
+#order .exclusive:hover,
+#update_carriers_list:hover,
+#carriercompare_submit:hover,
+input.button:hover {
+	color: #fff;
+}
+
+#cart-buttons a {
+	color: #79808C;
+}
+#search_query_block {
+	background: none repeat scroll 0 0 #22344b;
+	border: 1px solid #122135;
+}
+
+.lof-module-featured.default .lof-item-content h4 a:hover,
+#leo-columns div.products_block h5 a:hover { color: #6A7E96;}
+
+.lof-pager a {
+    background: url("../img/arrow-button.png") no-repeat scroll 0 2px transparent;
+}
+
+#module-bankwire-payment h2,#module-cheque-payment h2,#leo-columns h1, .content-cat h1, h4.heading-hightlight, h4.bg-heading,.lof-module-newproduct.default .tabs-panel li, #module-blockwishlist-mywishlist h2, #cms #leo-columns .rte h2, #cms #leo-columns .mceContentBody h2 {
+	background: url("../img/feature-title-bg.png") no-repeat scroll left bottom transparent;
+	height: 34px;
+	color: #0b9fcf;
+	text-shadow: -1px 1px 0 #000;
+}
+
+.lof-module-newproduct.default li.lof-tab a.active,.lof-module-newproduct.default .lof-price ,#newsletter_block_left h2, #lof-custom-footer-2 h3.title-user, #product_comparison span.price {
+    color: #0b9fcf;
+}
+
+#leo-rightcol #search_button {
+    background: url("../img/icon-search.png") no-repeat scroll left top transparent;
+}
+
+.lof-module-newproduct.default .product_label,
+ul#product_list .lof-product, #featured-products_block_center .lof-product,.lof-product {
+    border: 2px solid #2b3f59;
+}
+
+
+#categories_block_left .tree li a {
+    background: url("../img/shadow-li.png") repeat-x scroll left center transparent;
+}
+#categories_block_left .tree li a span {
+    background: url("../img/arrow-li.png") no-repeat scroll 8px 8px transparent;
+}
+#categories_block_left .tree li a:hover,
+#categories_block_left .tree li a.selected {
+    background: url("../img/shadow-li-hover.png") repeat-x scroll left center transparent;
+}
+#categories_block_left .tree a {
+	color: #fff;
+}
+
+#leo-user17 .social-gg {
+    background: url("../img/icon-social.png") repeat scroll left top transparent;
+}
+#leo-user17 .social-fb {
+    background: url("../img/icon-social.png") repeat scroll -30px top transparent;
+}
+#leo-user17 .social-tt {
+    background: url("../img/icon-social.png") repeat scroll -57px top transparent;
+}
+#leo-user17 .social-rss {
+    background: url("../img/icon-social.png") repeat scroll -87px top transparent;
+}
+.social_link  {
+	background: #213044;
+}
+span.social {
+	color: #5c5f66;
+}
+.lof-block-wrap h2 {
+    background: url("../img/bullet.png") no-repeat scroll left center transparent !important;
+	color:#0b9fcf;
+}
+
+input.exclusive_large, a.lof-add-cart, a.exclusive,#add_to_cart input.exclusive {
+    background: url("../img/button-bg.png") no-repeat scroll left 2px transparent;
+	color: #85909E;
+	border: 0;
+	box-shadow: none;
+}
+span.lof-add-cart,span.exclusive ,input.exclusive_large:hover, a.lof-add-cart:hover, a.exclusive:hover,#add_to_cart input.exclusive:hover {
+	background: url("../img/button-bg-hover.png") no-repeat scroll left 2px transparent;
+	color: #fff;
+}
+
+#toolspanel #bottombox input {
+	background: #0b9fcf;	
+}
+#toolspanel #bottombox a {
+	background:#2f4259;
+	color: #fff;
+}
+#order-list span.price,
+#cart_summary .price, #cart_summary .price-discount,
+#our_price_display,
+#cart_block span.price, #cart_block dl span.price, .content-cat h1, .lof-price-fix {
+	color:#0b9fcf;
+}
+
+#suppliers_list li, #manufacturers_list li {
+    border-top: 1px solid #435469;
+}
+#cart_block p#cart-prices {
+    border-top: 1px solid #435469;
+}
+ul.idTabsShort li a:hover,
+ul.idTabsShort li a.selected{
+	background: #0b9fcf;
+}
+select,input,textarea,
+input#email,
+input.account_input,
+#email_create{
+	background: none repeat scroll 0 0 #22344B;
+    border: 1px solid #122135;
+	color:#79808C;
+}
+/*SLIDESHOW
+------------------*/
+.leocamera_container{
+    background: none repeat scroll 0 0 #1b2838;
+}
+.camera_pag {
+    background: url("../img/slide-ul-bg.png") repeat-x scroll left top transparent;
+}
+.camera_next > span {
+    background: url("../img/camera_skins.png") no-repeat scroll right top transparent;
+}
+.camera_prev > span {
+    background: url("../img/camera_skins.png") no-repeat scroll left top transparent;
+}
+.camera_wrap .camera_pag .camera_pag_ul li {
+    background: url("../img/arrow-button.png") no-repeat scroll left top transparent;
+}
+.camera_wrap .camera_pag .camera_pag_ul li.cameracurrent {
+    background: url("../img/arrow-button.png") no-repeat scroll left bottom transparent;
+}
+/*FOOTER
+---------*/
+#footer {
+	background:url(../img/bg-ft.png) repeat-x top left #213044;
+}
+	
+#newsletter_block_left input[type="submit"],
+#leo-footernewsletter input.button {
+	background: url("../img/send.png") no-repeat scroll left top transparent!important;
+}
+
+#leo-footer,
+#leo-footer a {color:#6a7e96;}
+/*COLOR-------------------------*/
+#cart_block  a.button_small.lof-add-cart:hover { background: #0E1822; }
+#categories_block_left  h4.heading-hightlight {
+	background-position: left 6px;
+}
+
+
+#newsletter_block_left h4 span,
+#leo-footernewsletter span,
+#leo-footerlinks span {color:#168cdf;}
+
+div.hotline strong{
+	color: #168cdf;
+}
+
+/*General*/
+
+ul.pagination li:hover, ul.pagination li.current {
+    background: none repeat scroll 0 0 #0B9FCF;
+}
+ul.pagination li {
+    background: none repeat scroll 0 0 #2F4259;
+}
+#center_column select,#center_column #discount_name, #center_column textarea {background: none repeat scroll 0 0 #22344B;}
+/*-------------- css 3--------------------*/
+ul#product_list li:hover .lof-product, #featured-products_block_center li:hover .lof-product,
+.lof-module-newproduct.default .lof-content-main-item:hover .product_label,.lof-product:hover {
+	border: 2px solid #0B9FCF; background: #0B9FCF;
+}
+ul.item li.address_title, ul.alternate_item li.address_title,
+#leo-columns div.products_block h5 a:hover,
+#suppliers_list li a:hover, #manufacturers_list li a:hover,
+ul#product_list li h3 a:hover,
+.lof-module-newproduct.default h4 a:hover {
+	color:#0B9FCF;	
+}

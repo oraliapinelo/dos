@@ -1,0 +1,29 @@
+#newsletter_block_left{background:none}
+.inputNew{
+	background: none repeat scroll 0 0 #50545C;
+    border: 0 none;
+    border-radius: 3px 3px 3px 3px;
+    color: #1B2838;
+    float: left;
+    font-size: 12px;
+    font-style: italic;
+    height: 25px;
+    line-height: 28px;
+    margin: 8px 0 0;
+    padding: 0 5px;
+    width: 77%;
+}
+input[name="submitNewsletter"]{
+	background: none repeat scroll 0 0 #F84137;
+    border: 0 none;
+    border-radius: 3px 3px 3px 3px;
+    color: #FFFFFF;
+    float: left;
+    font: bold 12px/29px arial;
+    height: 25px;
+    margin-left: 3px;
+    margin-top: 9px;
+    padding: 0;
+    text-transform: none;
+    width: 17%;
+}

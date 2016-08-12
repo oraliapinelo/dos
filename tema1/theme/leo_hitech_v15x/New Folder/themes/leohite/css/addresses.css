@@ -1,0 +1,68 @@
+/* adresses */
+div.addresses {
+	padding: 0.6em;
+	position: relative;
+}
+div.addresses h3 { margin: 0 }
+div.addresses p.checkbox input {
+	margin-top: 0!important;
+	margin-top: -3px
+}
+div.addresses ul.item { clear: both }
+ul.address {
+	float: left;
+	list-style-image: none;
+	list-style-position: outside;
+	list-style-type: none;
+	margin-left: 10px;
+	padding-bottom: 0.6em;
+	margin-bottom: 1em;
+	position: relative;
+	width: 97%;
+}
+ul.address.full_width { width: 536px }
+ul.address li {
+	padding-left: 10px;
+	margin-top: 0.6em
+}
+li.address_title {
+	color: #374853;
+	font-weight: bold;
+	height: 27px;
+	font-size: 1.2em;
+	line-height: 1.9em;
+	
+}
+ul.item li.address_title,
+ul.alternate_item li.address_title { 
+	margin-top: 0;
+	text-transform:uppercase;
+	font-size: 18px;
+	height: 27px;
+	padding: 5px 10px;
+	color: #F84237;
+	border-bottom: 2px solid #31343C;
+}
+ul.full_width li.address_title { background-image: url('../img/address_alias_full_width.gif') }
+li.address_name,
+li.address_firstname,
+li.address_lastname,
+ li.address_update a,
+ li.address_delete a { color: #fff }
+li.address_name,
+li.address_firstname,
+li.address_lastname,
+ li.address_company { font-weight: bold }
+
+span.address_name,
+span.address_firstname,
+span.address_lastname,
+span.address_update a,
+span.address_delete a { color: #F84237 }
+span.address_name,
+span.address_firstname,
+span.address_lastname,
+span.address_company { font-weight: bold }
+
+
+#leo-columns .address_add { width: 125px; clear:both}
